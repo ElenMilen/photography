@@ -1,0 +1,65 @@
+.page4{
+    display: flex;
+    background-color: #1e1e1e;
+    flex-direction: column;
+    align-items: center;
+
+    .title {
+        font-size: 72px;
+        font-family: "Source Sans 3", sans-serif;
+        text-transform: uppercase;
+        color: white;
+        font-weight: bold;
+        line-height: 80px;
+        width: 85%;
+        text-align: left;
+        padding-top: 16%;
+        padding-bottom: 7%;
+        display: flex;
+      }
+
+    .page4Images{
+        display:flex;
+        flex-direction:row;
+        gap: 40px;
+        
+
+        .page4Div1{
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+        .page4Div2{
+            display: flex;
+        }
+        .page4Div3{
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+    }
+
+    .photos{
+        position: relative;
+        img{
+            filter: grayscale(100%);
+            transition:all .5s ease-in-out;
+            &:hover{
+                filter: grayscale(0%);
+            }
+        }
+
+        .text{
+            position:absolute;
+            left:0;
+            bottom:0;
+            padding: 20px 42px;
+            background-color: #591A06;
+            color: white;
+            font-size: 24px;
+            font-family: "Lato";
+            text-transform: uppercase;
+        }
+    }
+
+}

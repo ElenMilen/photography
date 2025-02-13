@@ -1,0 +1,56 @@
+.page5{
+    display: flex;
+    background-color: #1e1e1e;
+    flex-direction: column;
+    align-items: center;
+    justify-content:center;
+
+    .title {
+        font-size: 72px;
+        font-family: "Source Sans 3", sans-serif;
+        text-transform: uppercase;
+        color: white;
+        font-weight: bold;
+        line-height: 80px;
+        width: 75%;
+        text-align: left;
+        padding-top: 12%;
+        display: flex;
+    }
+
+    .people{
+        display:flex;
+        padding-top:5%;
+        gap: 40px;
+        filter: grayscale(100%);
+        text-align:left;
+        align-items:center;
+        justify-content: center;
+        padding-left: 10%;
+
+        .description{
+        }
+
+        .theName{
+            padding-top: 7%;
+            width: 60%;
+            font-size: 28px;
+            font-family: "Source Sans 3", sans-serif;
+            color: white;
+            font-weight:650;
+            text-transform: uppercase;
+        }
+
+        .theRole{
+            padding-top: 3%;
+            padding-bottom: 7%;
+            width: 55%;
+            font-size: 18px;
+            font-family: "Lato";
+            color: white;
+            font-weight: 250;
+            text-transform: uppercase;
+        }
+    }
+
+}

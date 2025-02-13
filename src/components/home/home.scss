@@ -1,0 +1,158 @@
+.home {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
+  overflow: hidden;
+  background-color: #1e1e1e;
+
+  &::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url("../../images/coverPhoto.png");
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: 50%;
+    filter: grayscale(100%);
+    z-index: 0; /* Send behind the content */
+  }
+
+  .homeTitle {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    font-weight: bold;
+    color: white;
+    font-family: "Source Sans 3", sans-serif;
+    padding-left: 3rem;
+    position: relative;
+    z-index: 1;
+    @media (max-width: 768px) {
+      padding-left: 2rem;
+    }
+  
+    @media (max-width: 480px) {
+      padding-left: 1rem;
+    }
+    .bigText {
+      font-size: 170px;
+      text-transform: uppercase;
+      @media (max-width: 1200px) {
+        font-size: 80px; 
+      }
+
+      @media (max-width: 768px) {
+        font-size: 60px;
+      }
+    
+      @media (max-width: 480px) {
+        font-size: 50px;
+      }
+    }
+
+    .photographyLeft {
+      padding-left: 72px;
+      @media (max-width: 768px) {
+        padding-left: 29px;
+      }
+    
+      @media (max-width: 480px) {
+        padding-left: 10px;
+      }
+    }
+
+    .homeDescriptionBox {
+      display: flex;
+      flex-direction: column;
+      align-content: flex-start;
+      font-weight: 300;
+      font-style: normal;
+      gap: 60px;
+      @media (max-width: 1200px) {
+        gap: 50px; 
+      }
+    
+      @media (max-width: 768px) {
+        gap: 40px;
+      }
+    
+      @media (max-width: 480px) {
+        gap: 30px;
+      }
+      .learnMore {
+        width: 300px;
+        font-size: 28px;
+        font-family: "Source Sans 3", sans-serif;;
+        font-weight: 500;
+        font-style: normal;
+        display: flex;
+        gap: 10px;
+        align-items: center;
+        text-transform: uppercase;
+        @media (max-width: 1200px) {
+          font-size: 24px; 
+        }
+      
+        @media (max-width: 768px) {
+          font-size: 22px;
+        }
+      
+        @media (max-width: 480px) {
+          font-size: 20px;
+        }
+        span {
+          width: 215px;
+          @media (max-width: 480px) {
+            width: auto;
+          }
+        }
+      }
+    }
+  }
+  .explorePages {
+    span {
+      width: 215px;
+    
+      @media (max-width: 480px) {
+        width: auto;
+      }
+    }
+  }
+}
+.explorePages {
+  width: 300px;
+  color: white;
+  font-size: 28px;
+  font-family: "Source Sans 3", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  display: flex;
+  gap: 10px;
+  align-items: flex-start;
+  text-transform: uppercase;
+  z-index:1;
+  @media (max-width: 1200px) {
+    font-size: 24px; 
+  }
+
+  @media (max-width: 768px) {
+    font-size: 22px;
+  }
+
+  @media (max-width: 480px) {
+    font-size: 20px;
+  }
+}
+
+.description {
+  width: 55%;
+  font-size: 20px;
+  font-family: "Lato";
+  color: white;
+  font-weight: 400;
+}

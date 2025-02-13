@@ -1,0 +1,55 @@
+.page3 {
+  display: flex;
+  background-color: #1e1e1e;
+  flex-direction: column;
+
+  .page3Left {
+    .menu {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      width: 50%;
+      padding-left: 10%;
+      gap: 80px;
+      span{
+        width: 100%;
+        text-align: left;
+      }
+      .momentList {
+        font-size: 40px;
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        justify-content: space-between;
+        align-items: center;
+        border-bottom: 2px solid white;
+        img{
+            width: 28px;
+            height: 22px;
+        }
+      }
+    }
+  }
+
+  .page3Right {
+    filter: grayscale(100%);
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 80px;
+    img{
+        
+    }
+  }
+
+  .title {
+    font-size: 72px;
+    font-family: "Source Sans 3", sans-serif;
+    text-transform: uppercase;
+    color: white;
+    font-weight: bold;
+    line-height: 80px;
+    width: 70%;
+    padding-left: 5%;
+    text-align: left;
+  }
+}
