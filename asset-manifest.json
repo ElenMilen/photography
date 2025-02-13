@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/photography/static/css/main.8ac86bc5.css",
+    "main.js": "/photography/static/js/main.85691afd.js",
+    "static/js/453.d798f18e.chunk.js": "/photography/static/js/453.d798f18e.chunk.js",
+    "static/media/page7Photo.png": "/photography/static/media/page7Photo.0a8a66a9aed6fbf0587b.png",
+    "static/media/coverPhoto.png": "/photography/static/media/coverPhoto.15026767b95f41718753.png",
+    "static/media/page2Photos.png": "/photography/static/media/page2Photos.d95c482484e75e0c33c5.png",
+    "static/media/page5Photo3.png": "/photography/static/media/page5Photo3.440ada0f9335a41017b7.png",
+    "static/media/page5Photo2.png": "/photography/static/media/page5Photo2.cadb98985bc365b3fd94.png",
+    "static/media/page3Photo.png": "/photography/static/media/page3Photo.778cdb9250db386f9797.png",
+    "static/media/page4Photo3.png": "/photography/static/media/page4Photo3.774571c399716f6f134c.png",
+    "static/media/page4Photo4.png": "/photography/static/media/page4Photo4.5556b785e711e3bffff8.png",
+    "static/media/page6Photo2.png": "/photography/static/media/page6Photo2.9807fe71071da364a7d5.png",
+    "static/media/page5Photo1.png": "/photography/static/media/page5Photo1.b1177008ae9caf13b5c8.png",
+    "static/media/page4Photo5.png": "/photography/static/media/page4Photo5.90d9f4530e7134bf23cf.png",
+    "static/media/page4Photo1.png": "/photography/static/media/page4Photo1.f96c07367db6b4bb64bc.png",
+    "static/media/page4Photo2.png": "/photography/static/media/page4Photo2.7cf9539903f1bbceac89.png",
+    "static/media/page6Photo1.png": "/photography/static/media/page6Photo1.7ba8be25be541e4449fd.png",
+    "index.html": "/photography/index.html",
+    "main.8ac86bc5.css.map": "/photography/static/css/main.8ac86bc5.css.map",
+    "main.85691afd.js.map": "/photography/static/js/main.85691afd.js.map",
+    "453.d798f18e.chunk.js.map": "/photography/static/js/453.d798f18e.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8ac86bc5.css",
+    "static/js/main.85691afd.js"
+  ]
+}
